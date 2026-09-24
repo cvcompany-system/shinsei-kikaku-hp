@@ -31,3 +31,5 @@ body{font-size:1rem;line-height:1.85}
 .contact-form label{font-size:.85rem}
 .form-status{font-size:.85rem}
 @media(max-width:640px){.hero h1{font-size:clamp(2.7rem,12vw,4rem)}.statement-layout h2,.process h2,.about h2,.section-heading h2,.contact h2{font-size:clamp(1.9rem,8vw,2.8rem)}.hero-lead{font-size:1rem}.solution-item h3{font-size:1.2rem}}
+.contact{padding-top:clamp(6rem,10vw,10rem);padding-bottom:clamp(6rem,10vw,10rem)}
+@media(max-width:640px){.contact{padding-top:5rem;padding-bottom:5rem}}
